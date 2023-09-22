@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <api2>
+        <resources>
+            <carlos_timezone translate="title" module="carlos_timezone">
+                <model>carlos_timezone/api2_timezone</model>
+                <title>Carlos Timezone API2</title>
+                <sort_order>10</sort_order>
+                <privileges>
+                    <guest>access</guest>
+                    <admin>all</admin>
+                </privileges>
+                <versions>1</versions>
+                <available_methods>
+                    <get>retrieve</get>
+                    <post>create</post>
+                    <put>update</put>
+                    <delete>delete</delete>
+                </available_methods>
+            </carlos_timezone>
+        </resources>
+        <routes>
+            <rest>
+                <route>/rest/timezone</route>
+            </rest>
+        </routes>
+    </api2>
+</config>

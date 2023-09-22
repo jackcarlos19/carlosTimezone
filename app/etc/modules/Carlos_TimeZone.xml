@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Carlos_Timezone>
+            <version>1.0.0</version>
+        </Carlos_Timezone>
+    </modules>
+</config>

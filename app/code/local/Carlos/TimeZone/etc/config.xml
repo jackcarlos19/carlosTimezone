@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Carlos_TimeZone>
+            <version>1.0.0</version>
+        </Carlos_TimeZone>
+    </modules>
+    <global>
+        <resources>
+            <timezone_setup>
+                <setup>
+                    <module>Carlos_TimeZone</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </timezone_setup>
+            <timezone_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </timezone_write>
+            <timezone_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </timezone_read>
+        </resources>
+    </global>
+</config>
